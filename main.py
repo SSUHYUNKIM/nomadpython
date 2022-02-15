@@ -24,9 +24,53 @@
 # print(nico)
 
 #1.3
-age = "18"
-print(age)
-print(type(age))
-n_age = int(age)
-print(n_age)
-print(type(n_age))
+# age = "18"
+# print(age)
+# print(type(age))
+# n_age = int(age)
+# print(n_age)
+# print(type(n_age))
+
+#1.4
+# def say_hello():
+#   print("bye")
+#   print("hello")
+
+# say_hello()
+
+#1.5
+# def say_hello(who):
+#   print("hello", who)
+
+# say_hello("Nico")
+
+# def plus(a, b):
+#   print(a + b)
+
+# def minus(a, b):
+#   print(a - b)
+
+# plus(2, 5)
+# minus(2, 5)
+
+#1.6
+# def plus(a, b):
+#   return a + b
+
+# result = plus(2, 4)
+# print(result)
+
+#1.7
+# def say_hello(name, age):
+#   return f"Hello {name} you are {age} years old"
+
+# hello = say_hello(age="12", name="nico")
+# print(hello)
+
+#1.8
+a = int(input())
+b = int(input())
+def calculator(a, b):
+  return a+b, a-b, a*b, a/b, -a, a**b, a%b
+
+print(calculator(a,b))
