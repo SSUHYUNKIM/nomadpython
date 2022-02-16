@@ -68,9 +68,42 @@
 # print(hello)
 
 #1.8
-a = int(input())
-b = int(input())
-def calculator(a, b):
-  return a+b, a-b, a*b, a/b, -a, a**b, a%b
+# a = int(input())
+# b = int(input())
+# def calculator(a, b):
+#   return a+b, a-b, a*b, a/b, -a, a**b, a%b
 
-print(calculator(a,b))
+# print(calculator(a,b))
+
+#1.9
+# def plus(a,b):
+#   if type(b) is int or type(b) is float:
+#     return a + b
+#   else:
+#     return None
+
+# print(plus(12, 1.2))
+
+#1.10
+# def age_check(age):
+#   print(f"you are {age}")
+#   if age < 18:
+#     print("you cant drink")
+#   elif age ==18 or age == 19:
+#     print("you are new to this!")
+#   elif age > 20 and age < 25:
+#     print("you are still king of young")
+#   else:
+#     print("enjoy tour drink")
+
+# age_check(19)
+
+#1.11
+days =("Mon", "Tue", "Wed", "Thu", "Fri")
+
+for day in days:
+  if day is "Wed":
+    break
+  else:
+    print(day)
+
