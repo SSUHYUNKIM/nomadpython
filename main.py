@@ -99,11 +99,22 @@
 # age_check(19)
 
 #1.11
-days =("Mon", "Tue", "Wed", "Thu", "Fri")
+# days =("Mon", "Tue", "Wed", "Thu", "Fri")
 
-for day in days:
-  if day is "Wed":
-    break
-  else:
-    print(day)
+# for day in days:
+#   if day is "Wed":
+#     break
+#   else:
+#     print(day)
 
+#1.12
+# from calculator import plus, minus
+
+# print(plus(1,2), minus(1,2))
+
+#2.2
+import requests
+
+indeed_result = requests.get("https://www.indeed.com/jobs?as_and=python&limit=50")
+
+print(indeed_result)
